@@ -1,0 +1,20 @@
+CRITICAL - 2022-04-20 08:33:57 --> Array to string conversion
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\home_page.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('home_page', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Home.php(36): view('home_page', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 08:36:27 --> syntax error, unexpected '?>'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('home_page', Array, true)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Home.php(36): view('home_page', Array)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

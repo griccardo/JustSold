@@ -1,0 +1,102 @@
+CRITICAL - 2022-05-18 08:16:48 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\components\navbar\navbar_logged.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 7, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('components/navb...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(13): view('components/navb...')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-18 08:29:38 --> Undefined index: nome
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\user\body.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 4, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('user/body', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(21): view('user/body')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-18 09:00:18 --> Undefined index: password
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 42, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->modifica()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 09:00:57 --> Undefined index: name
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(44): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 44, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->modifica()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 09:01:30 --> There is no data to update.
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(52): CodeIgniter\Model->update(Array)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->modifica()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-18 09:08:26 --> Undefined index: email
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Utente.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 55, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Utente->modifica()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Utente))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 09:13:43 --> syntax error, unexpected ')'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('utente')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('utente')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 09:19:21 --> Undefined index: name
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Accesso.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 100, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Accesso->registra()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accesso))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 10:08:58 --> syntax error, unexpected '}', expecting ';' or ','
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(245): view('advertisement/d...', Array)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('56')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-05-18 10:31:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= "DISPONIBILE" GROUP BY annuncio_id ORDER BY data_pubblicazione DESC LIMIT 20' at line 1
+CRITICAL - 2022-05-18 10:31:17 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= "DISPONIBILE" GROUP BY annuncio_id ORDER BY data_pubblicazione DESC LIMIT 20' at line 1
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, pat...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, pat...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, pat...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Database\BaseConnection->query('SELECT a.*, pat...')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Home.php(33): App\Models\AnnuncioModel->getAnnunciHome()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-18 12:17:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce`.`preferiti`, CONSTRAINT `realAnnuncioPerPreferiti` FOREIGN KEY (`annuncio_id`) REFERENCES `annuncio` (`annuncio_id`))
+CRITICAL - 2022-05-18 12:17:33 --> Cannot delete or update a parent row: a foreign key constraint fails (`ecommerce`.`preferiti`, CONSTRAINT `realAnnuncioPerPreferiti` FOREIGN KEY (`annuncio_id`) REFERENCES `annuncio` (`annuncio_id`))
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('DELETE FROM `an...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('DELETE FROM `an...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('DELETE FROM `an...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseBuilder.php(2225): CodeIgniter\Database\BaseConnection->query('DELETE FROM `an...', Array, false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(359): CodeIgniter\Database\BaseBuilder->delete()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(963): CodeIgniter\Model->doDelete(NULL, false)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(378): CodeIgniter\BaseModel->delete()
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->elimina('53')
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

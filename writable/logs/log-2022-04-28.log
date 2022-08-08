@@ -1,0 +1,11 @@
+CRITICAL - 2022-04-28 03:32:59 --> Undefined index: email
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(19): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 19, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(197): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

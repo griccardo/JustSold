@@ -1,0 +1,52 @@
+ERROR - 2022-06-28 09:28:42 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-06-28 09:28:42 --> Unable to connect to the database.
+Main connection [mysqli]: No such file or directory
+#0 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/riccardogobbo/Desktop/ecommerce/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/riccardogobbo/Desktop/ecommerce/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/riccardogobbo/Desktop/ecommerce/app/Controllers/Home.php(32): CodeIgniter\BaseModel->findAll()
+#5 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/riccardogobbo/Desktop/ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 09:28:50 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-06-28 09:28:50 --> Unable to connect to the database.
+Main connection [mysqli]: No such file or directory
+#0 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/riccardogobbo/Desktop/ecommerce/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/riccardogobbo/Desktop/ecommerce/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/riccardogobbo/Desktop/ecommerce/app/Controllers/Home.php(32): CodeIgniter\BaseModel->findAll()
+#5 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/riccardogobbo/Desktop/ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 09:29:26 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-06-28 09:29:26 --> Unable to connect to the database.
+Main connection [mysqli]: No such file or directory
+#0 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/riccardogobbo/Desktop/ecommerce/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/riccardogobbo/Desktop/ecommerce/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/riccardogobbo/Desktop/ecommerce/app/Controllers/Home.php(32): CodeIgniter\BaseModel->findAll()
+#5 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/riccardogobbo/Desktop/ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-28 09:32:55 --> Error connecting to the database: No such file or directory
+CRITICAL - 2022-06-28 09:32:55 --> Unable to connect to the database.
+Main connection [mysqli]: No such file or directory
+#0 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/riccardogobbo/Desktop/ecommerce/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/riccardogobbo/Desktop/ecommerce/system/Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/riccardogobbo/Desktop/ecommerce/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 /Users/riccardogobbo/Desktop/ecommerce/app/Controllers/Home.php(32): CodeIgniter\BaseModel->findAll()
+#5 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#6 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 /Users/riccardogobbo/Desktop/ecommerce/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/riccardogobbo/Desktop/ecommerce/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

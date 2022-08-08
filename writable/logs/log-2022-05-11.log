@@ -1,0 +1,385 @@
+ERROR - 2022-05-11 10:59:32 --> Unknown column 'SPEDIBILE' in 'where clause'
+CRITICAL - 2022-05-11 10:59:32 --> Unknown column 'SPEDIBILE' in 'where clause'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, pat...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, pat...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, pat...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(54): CodeIgniter\Database\BaseConnection->query('SELECT a.*, pat...')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(34): App\Models\AnnuncioModel->getRicerca(NULL, NULL, true)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 11:16:11 --> Undefined index: source
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\login\login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 28, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Accesso.php(16): view('login/login')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Accesso->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accesso))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 11:18:45 --> Undefined index: source
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\login\login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 28, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Accesso.php(16): view('login/login')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Accesso->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accesso))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 11:19:39 --> Undefined index: source
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\login\login.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 28, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('login/login', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Accesso.php(16): view('login/login')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Accesso->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Accesso))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 11:31:43 --> Undefined variable: annuncio
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\cardlarge.php(6): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 6, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/c...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\components\searchbody.php(14): view('advertisement/c...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/c...', Array, true)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\searchindex.php(6): view('advertisement/c...', Array)
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/s...', Array, true)
+#12 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(43): view('advertisement/s...', Array)
+#13 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#14 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#15 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#16 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#17 {main}
+CRITICAL - 2022-05-11 12:15:40 --> Undefined index: utente_id
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(246): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 246, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 12:16:25 --> Illegal offset type in isset or empty
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(228): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal offset ...', 'C:\\xampp_CodeIg...', 228, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(246): CodeIgniter\Model->insert(Array)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-11 12:19:11 --> Duplicate entry '55-3' for key 'PRIMARY'
+CRITICAL - 2022-05-11 12:19:11 --> Duplicate entry '55-3' for key 'PRIMARY'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(246): CodeIgniter\Model->insert(Array)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-11 12:22:08 -->  route cannot be found while reverse-routing.
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(832): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(250): redirect('http://localhos...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-11 12:23:26 --> Undefined property: App\Controllers\Annunci::$load
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(250): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_CodeIg...', 250, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-11 12:24:13 --> Duplicate entry '55-10' for key 'PRIMARY'
+CRITICAL - 2022-05-11 12:24:13 --> Duplicate entry '55-10' for key 'PRIMARY'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(246): CodeIgniter\Model->insert(Array)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->aggiungipreferito('55')
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-11 13:48:37 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(39): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 39, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('52')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-11 13:51:30 --> Unknown column 'p.annuncio_id' in 'field list'
+CRITICAL - 2022-05-11 13:51:30 --> Unknown column 'p.annuncio_id' in 'field list'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '52')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('52')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+CRITICAL - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '52')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('52')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+CRITICAL - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '52')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('52')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+CRITICAL - 2022-05-11 13:51:32 --> Unknown column 'p.annuncio_id' in 'field list'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(44): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '52')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('52')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('52')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 13:59:44 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:02:17 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:15 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:25 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:27 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:56 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:57 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:57 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:57 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:03:58 --> Undefined index: preferito
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\details\body.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 27, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/d...', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(225): view('advertisement/d...', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:05:39 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:42 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:43 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:43 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:43 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:43 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 14:05:44 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(40): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 40, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-11 14:07:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+                LEFT JOIN immagini_annuncio i ON a.annuncio_id = i.annunci...' at line 3
+CRITICAL - 2022-05-11 14:07:13 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+                LEFT JOIN immagini_annuncio i ON a.annuncio_id = i.annunci...' at line 3
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '10', true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-05-11 14:07:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+                LEFT JOIN immagini_annuncio i ON a.annuncio_id = i.annunci...' at line 3
+CRITICAL - 2022-05-11 14:07:15 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '?
+                LEFT JOIN immagini_annuncio i ON a.annuncio_id = i.annunci...' at line 3
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, CON...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, CON...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, CON...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(37): CodeIgniter\Database\BaseConnection->query('SELECT a.*, CON...', '10', true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(193): App\Models\AnnuncioModel->getAnnuncioDetails('53')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-11 14:09:06 --> session_start(): A session had already been started - ignoring
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp_CodeIg...', 216, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(216): session_start()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->scheda('53')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

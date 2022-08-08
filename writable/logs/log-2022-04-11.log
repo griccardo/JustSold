@@ -1,0 +1,57 @@
+CRITICAL - 2022-04-11 10:15:55 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-11 10:19:52 --> Class 'CodeIgniter\Database\pdo\Connection' not found
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('pdo', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(26): db_connect()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 10:22:45 --> Class 'CodeIgniter\Database\mysql\Connection' not found
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mysql', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(312): CodeIgniter\Database\Config::connect('default', true)
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(26): db_connect()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-11 10:24:15 --> Undefined property: stdClass::$title
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_CodeIg...', 29, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 10:28:57 --> Undefined property: stdClass::$title
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp_CodeIg...', 29, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-11 14:01:49 --> Invalid file: login/signup.php
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login/signup.ph...')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('login/signup', Array, true)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(23): view('login/signup')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->newuser()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-11 14:59:43 --> password_verify() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'password_verify...', 'C:\\xampp_CodeIg...', 49, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Login.php(49): password_verify('gdfgfgf', Array)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Login->submit()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

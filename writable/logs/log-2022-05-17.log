@@ -1,0 +1,58 @@
+CRITICAL - 2022-05-17 08:19:07 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp_CodeIg...', 12, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\components\searchbody.php(12): array_column(NULL, 'annuncio_id')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/c...', Array, true)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\searchindex.php(6): view('advertisement/c...', Array)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/s...', Array, true)
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(52): view('advertisement/s...', Array)
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#12 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-17 08:19:37 --> array_column() expects parameter 1 to be array, null given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'array_column() ...', 'C:\\xampp_CodeIg...', 12, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\components\searchbody.php(12): array_column(NULL, 'annuncio_id')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/c...', Array, true)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\advertisement\searchindex.php(6): view('advertisement/c...', Array)
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('advertisement/s...', Array, true)
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(52): view('advertisement/s...', Array)
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#12 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-05-17 08:38:14 --> Undefined variable: categoria
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(77): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 77, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(35): App\Models\AnnuncioModel->getRicerca('', '', false, '')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-17 08:39:32 --> Undefined index: dove
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp_CodeIg...', 33, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-17 08:42:50 --> Undefined offset: 8
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Views\home_page.php(52): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined offse...', 'C:\\xampp_CodeIg...', 52, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(210): include('C:\\xampp_CodeIg...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(1089): CodeIgniter\View\View->render('home_page', Array, true)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Home.php(36): view('home_page', Array)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

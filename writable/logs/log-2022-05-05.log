@@ -1,0 +1,79 @@
+CRITICAL - 2022-05-05 03:28:55 --> Class 'e' not found
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT a.*, pat...', 'Iphone', true, 'e', 'e')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca('Iphone', 'e')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-05 03:29:56 --> Class 'e' not found
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT a.*, pat...', 'Iphone', true, 'e', 'e')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca('Iphone', 'e')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-05-05 03:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'Iphone'% AND ( comune LIKE %'e'% OR provincia LIKE %'e'% OR regione LIKE %'...' at line 1
+CRITICAL - 2022-05-05 03:32:59 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '%'Iphone'% AND ( comune LIKE %'e'% OR provincia LIKE %'e'% OR regione LIKE %'...' at line 1
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT a.*, pat...', 0)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT a.*, pat...')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT a.*, pat...')
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(42): CodeIgniter\Database\BaseConnection->query('SELECT a.*, pat...', Array)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca('Iphone', 'e')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-05 03:36:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::escape_like_str()
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca('Iphone', 'e')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-05 03:45:40 --> Undefined variable: qry
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(45): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 45, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca(NULL, NULL)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-05 03:47:42 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_CodeIg...')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Annu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Annu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Annu...')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Config\Factories.php(136): class_exists('App\\Models\\Annu...')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'AnnuncioModel')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(28): model('AnnuncioModel')
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-05 03:47:44 --> syntax error, unexpected ';', expecting ')'
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp_CodeIg...')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Annu...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Annu...')
+#3 [internal function]: spl_autoload_call('App\\Models\\Annu...')
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Config\Factories.php(136): class_exists('App\\Models\\Annu...')
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Config\Factories.php(106): CodeIgniter\Config\Factories::locateClass(Array, 'AnnuncioModel')
+#6 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Common.php(780): CodeIgniter\Config\Factories::__callStatic('models', Array)
+#7 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(28): model('AnnuncioModel')
+#8 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#9 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#10 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-05 03:48:00 --> Undefined variable: qry
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Models\AnnuncioModel.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 53, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(33): App\Models\AnnuncioModel->getRicerca(NULL, NULL)
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->index()
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

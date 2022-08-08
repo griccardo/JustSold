@@ -1,0 +1,21 @@
+CRITICAL - 2022-04-19 10:37:05 --> Undefined variable: _SESSION
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\app\Controllers\Annunci.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp_CodeIg...', 53, Array)
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(832): App\Controllers\Annunci->carica()
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Annunci))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 10:41:29 --> syntax error, unexpected '"SPEDIBILE"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('annunci/nuovo')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('annunci/nuovo')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-19 10:41:32 --> syntax error, unexpected '"SPEDIBILE"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp_CodeIgniter\htdocs\ecommerce\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('annunci/nuovo')
+#1 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('annunci/nuovo')
+#2 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp_CodeIgniter\htdocs\ecommerce\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp_CodeIgniter\htdocs\ecommerce\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
